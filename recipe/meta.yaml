@@ -18,7 +18,6 @@ requirements:
     - cargo-bundle-licenses
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
-    - make  # [unix]
 
 test:
   commands:
